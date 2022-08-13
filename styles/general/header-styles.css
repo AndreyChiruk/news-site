@@ -1,0 +1,45 @@
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 12vh;
+}
+.logo{
+	display: block;
+	margin: 0;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	background: linear-gradient(35deg, #2AF49C 50%, #0AB1E6 50%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border: none;
+	text-shadow: 0 0 5px #2AF49C;
+}
+ul{
+	list-style: none;
+}
+li.li__nav{
+	color:  white;
+	font-family: 'Ubuntu', sans-serif;
+	display: inline-block;
+	margin: 10px;
+	border-bottom: 1px solid white;
+	padding-bottom: 1px;
+}
+li.li__nav:hover{
+	color: #109bc2;
+	border-bottom-color:  #109bc2;
+
+}
+nav{
+	width: auto;
+}
+.hide__hamburger{
+	display: none;
+}
+a{
+	text-decoration: none;
+}
+

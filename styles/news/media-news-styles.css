@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px){
+	.content{
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+@media screen and (max-width: 768px){
+	.content{
+		width: 96%;
+		margin-left: 2%;
+	}
+}
+@media screen and (max-width: 992px){
+	nav{
+		display: none;
+	}
+	.menu__btn{
+		display: flex;
+	}
+	.menu__box{
+		display: flex;
+	}
+	/*header{
+		display: none;
+	}*/
+	.logo{
+		position: absolute;
+		right: 20px;
+		top: 16px;
+	}
+	.menu__box{
+		width: 100%;
+	}
+	.hide__hamburger{
+		display: block;
+	}
+}

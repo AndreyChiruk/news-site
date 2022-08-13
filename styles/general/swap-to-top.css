@@ -1,0 +1,27 @@
+.arrow__box{
+      z-index: 100;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      position: fixed; 
+      bottom: 0;
+      right: 20px;
+      background-color: #1e1d1f;
+      opacity: 0.6; 
+      transition: .4s; 
+}
+.arrow__box:hover{
+      transition: .4s;
+      opacity: 1; 
+}
+.arrow {
+      margin-top: 14px;
+      width: 30px;
+      height: 30px;
+      border-top: 5px solid white;
+      border-right: 5px solid white;
+      transform: rotate(-45deg);
+} 

@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+body{
+	background-color: #212224;
+}
+.content{
+	max-width: 1200px;
+	width:  60%;
+	margin-left: 20%;
+}
